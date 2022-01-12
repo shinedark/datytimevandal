@@ -1,0 +1,15 @@
+{
+	"spellright.language": ["en"],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext",
+		"code-runner-output",
+		"html"
+	],
+	"spellright.parserByClass": {
+		"code-runner-output": {
+			"parser": "plain"
+		}
+	}
+}
