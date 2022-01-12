@@ -15,10 +15,16 @@ h1 {
 }
 
 a {
-	color: rgb(37, 37, 37);
+	color: white;
+	background-color: rgb(0, 0, 121);
+	text-shadow: 0px 40px 20px rgb(0 104 206 / 99%);
 }
 
 a:hover {
 	color: white;
 	background-color: black;
+}
+
+p {
+	padding: 10px 30px;
 }
