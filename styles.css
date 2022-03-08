@@ -68,3 +68,23 @@ p {
 li {
 	text-align: initial;
 }
+
+.images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style: none;
+}
+.imgenes {
+	width: 100px;
+	padding: 6px;
+}
+
+.work {
+	background-image: url("./accetss/logo.png");
+	/* background-size: contain; */
+	color: black;
+}
