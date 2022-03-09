@@ -84,7 +84,20 @@ li {
 }
 
 .work {
-	background-image: url("./accetss/logo.png");
-	/* background-size: contain; */
-	color: black;
+	background-image: url("./accetss/static1.gif");
+	text-decoration: underline;
+	background-size: cover;
+	animation: art 12s infinite;
+	padding: 10px;
+}
+@keyframes art {
+	0% {
+		background-image: url("./accetss/static1.gif");
+	}
+	50% {
+		background-image: url("./accetss/static2.gif");
+	}
+	100% {
+		background-image: url("./accetss/static3.gif");
+	}
 }
